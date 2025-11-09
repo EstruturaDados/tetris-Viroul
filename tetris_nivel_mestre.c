@@ -256,7 +256,7 @@ int main() {
         printf("3. Usar uma peça da reserva(pilha)\n");
         printf("4. Trocar peça da frente da fila com o topo da pilha\n");
         printf("5. Trocar os 3 primeiros da fila com as 3 peças da pilha\n");
-        printf("6. Sair\n");
+        printf("0. Sair\n");
         printf("\nEscolha uma opção: ");
         //leitura da opção do usuário
         scanf("%d", &opcao);
@@ -312,7 +312,7 @@ int main() {
                 break;
             }
             // Sair do programa
-            case 6:
+            case 0:
                 printf("Saindo...\n");
                 break;
 
@@ -321,7 +321,7 @@ int main() {
                 printf("Opção inválida!\n");
         }
 
-    } while(opcao != 6);
+    } while(opcao != 0);
 
     return 0;
 }
